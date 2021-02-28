@@ -1,0 +1,177 @@
+<html>
+  <head>
+    <title>A Web Page</title>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+<body>
+  <div class="grid-container">
+    <!-- En-tête -->
+    <header>
+      <div class="mon-compte">
+        <h2>MON COMPTE</h2>
+      </div>
+      <div class="alert">
+        <p>Derniers jours pour votre DNAS !</p>
+      </div>
+      <div class="messagerie">
+        <p><a href="#inmail">Messagerie (2)</a></p>
+      </div>
+      <div class="deconnexion">
+        <p>Déconnexion  X</p>
+      </div>
+    </header>
+
+    <!-- ID entreprise -->
+      <div>
+        <p>Entreprise XXXXXXXXX | N° Siret 00000000000</p>
+      </div>
+    <!-- Navigation -->
+    <nav>
+      <div class="topnav">
+        <a class="active" href="#home">HOME</a>
+        <a href="#infos">MES INFOS</a>
+        <a href="#autorisations">MES AUTORISATIONS D'ACCES</a>
+        <a href="#salaries">MES SALARIES</a>
+        <a href="#cotisations">MES COSTISATIONS</a>
+        <a href="#contrats">MES CONTRATS</a>
+        <a href="#operations">MES OPERATIONS</a>
+      </div>
+    </nav>
+    <!-- 1. Bienvenue-->
+    <section class="flex-container">
+      <section>
+        <h1 class="bienvenue">Bienvenue Entreprise XXXXXXXXXXX</h1>
+      </section>
+
+    <!-- 2. Coordonnées -->
+      <section>
+        <div class="coordonnees">
+          <h2>Coordonnées</h2>
+          <div class="coord-flex">
+            <p><strong>SIRET</strong> : 000000000000000</p>
+          </div>
+          <div class="coord-flex">
+            <p><strong>Adresse</strong> : 298 boulevard Voltaire <br/> 75002 PARIS</p>
+          </div>
+          <div class="coord-flex">
+            <p><strong>Téléphone</strong> : 02 02 02 02 02</p>
+          </div>
+          <div class="coord-flex">
+            <p><strong>Adresse mail</strong> : xxxxxxxx.paris@gmail.com</p>
+          </div>
+        </div>
+      </section>
+
+    <!-- 3. Tableau Dernières opé -->
+      <section>
+        <div class="tableau">
+          <h2>Dernières opérations</h2>
+          <table>
+            <thead>
+              <th>Date</th>
+              <th>Objet</th>
+              <th>Numéro d'opération</th>
+              <th>Auteur</th>
+              <th>Etat</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>08/03/2014</td>
+                <td>Mise à jour</td>
+                <td>17</td>
+                <td>Profil 2</td>
+                <td>Brouillon</td>
+              </tr>
+              <tr>
+                <td>28/02/2014</td>
+                <td>Affiliation</td>
+                <td>16</td>
+                <td>Profil 1</td>
+                <td>Brouillon</td>
+              </tr>
+              <tr>
+                <td>27/02/2014</td>
+                <td>Mise à jour</td>
+                <td>15</td>
+                <td>ADMIN</td>
+                <td>Validé</td>
+              </tr>
+              <tr>
+                <td>25/02/2014</td>
+                <td>Mise à jour</td>
+                <td>14</td>
+                <td>Profil 1</td>
+                <td>Validé</td>
+              </tr>
+              <tr>
+                <td>10/02/2014</td>
+                <td>DNAS</td>
+                <td>13</td>
+                <td>ADMIN</td>
+                <td>Validé</td>
+              </tr>
+              <tr>
+                <td>23/01/2014</td>
+                <td>Arrêt de travail</td>
+                <td>12</td>
+                <td>Profil 2</td>
+                <td>Validé</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+    <!-- 4. Dernière co. -->
+    <section>
+      <div class="derniere-co">
+        <p><em>Dernière connexion : le 10/03/2014 à 14:08</em></p>
+    </section>
+
+    <!-- 5. Urgent -->
+    <section>
+      <div class="urgent">
+        <p>Urgent</p>
+        <p>Il ne vous reste que<strong> 3 jours </strong>pour remplir la
+        déclaration nominative annuelle des salaires
+        (DNAS). Pour faire votre déclaration, <a href="#cliquez-ici">cliquez ici</a>.</p>
+      </div>
+    </section>
+
+    <!-- 6. Messagerie -->
+    <section>
+      <div class="mail">
+        <h2>Messagerie</h2>
+        <p><a href="#messages">Vous avez 2 messages non-lus.</a></p>
+      </div>
+    </section>
+
+    <!-- 7. Contact PRO BTP -->
+    <section>
+      <div class="contact">
+        <h2>Contact PRO BTP</h2>
+        <p>Votre conseiller : <strong>JEAN DUPONT</strong></p>
+        <p><strong>04 04 04 04 04</strong></p>
+        <p><a href="mailto:jean.dupont@gmail.com">Envoyer un e-mail à mon conseiller</a></p>
+      </div>
+    </section>
+
+    <!-- 8. Important -->
+    <section>
+      <div class="important">
+        <ul>
+          <li><strong>Nouveau</strong> : paiement des cotisations par chèque ou par prélèvement à l'échéance, c'est vous qui choisissez !</li>
+          <li><strong>Arrêt de travail > 90 jours</strong> :<a href="#changement-janvier">ce qui change au 1er janvier 2014</a></li>
+          <li><strong>Exonérations sociales et fiscales</strong> :<a href="#exonerations">conformité des contrats prévoyance / frais de santé</a></li>
+          <li><strong><a href="#inscription">Inscrivez-vous</a></strong> au télépaiement</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
+  </body>
+</html>
