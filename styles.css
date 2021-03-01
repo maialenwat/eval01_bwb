@@ -84,14 +84,21 @@ button{
 section{
 	display: flex;
   flex-flow: row wrap;
-	justify-content: center;
-  width: 100%;
+  justify-content: center;
 	padding-bottom: 10px;
   padding-top: 20px;
 	margin: 10px auto;
 }
-section > div{
-  width: 90%;
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: orange;
+}
+.flex-container > section{
+  background-color: rgb(14, 131, 185);
+  width: 50%;
 }
 
 // Titre Bienvenue
