@@ -29,16 +29,16 @@ header{
 }
 
 /*Barre de navigation*/
-nav{
+.topnav{
 	display: flex;
 	width: 100%;
 	box-shadow: 5px 5px darkgrey;
-	overflow: hidden;
+	overflow: auto;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-nav a{
+.topnav a{
 	float: left;
 	color: black;
 	padding: 14px 16px;
@@ -47,11 +47,11 @@ nav a{
 	font-size: 17px;
   border: 1px solid black;
 }
-nav a:hover{ /*change the link color to lightgrey on hover*/
+.topnav a:hover{ /*change the link color to lightgrey on hover*/
 	background-color: lightgrey;
 	color: white;
 }
-nav a.active{
+.topnav a.active{
 	background-color: skyblue;
 	color: white;
 }
