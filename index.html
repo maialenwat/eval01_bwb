@@ -2,6 +2,7 @@
   <head>
     <title>A Web Page</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://kit.fontawesome.com/930ca74a67.js" crossorigin="anonymous"></script>
@@ -9,27 +10,30 @@
 
 <body>
 
-    <!-- En-tête -->
+<!-- En-tête -->
     <header>
-      <div class="mon-compte">
-        <h3>MON COMPTE <i class="fas fa-lock"></i></h2>
-      </div>
-      <div class="alert">
-        <p><i class="fas fa-exclamation-triangle"></i> Derniers jours pour votre DNAS !</p>
-      </div>
-      <div class="messagerie">
-        <p><i class="far fa-envelope"></i> <a href="#inmail">Messagerie (2)</a></p>
-      </div>
-      <div class="deconnexion">
-        <p>Déconnexion  X</p>
+      <div class="header">
+        <div class="mon-compte">
+          <h3>MON COMPTE <i class="fas fa-lock"></i></h2>
+        </div>
+        <div class="alert">
+          <p><i class="fas fa-exclamation-triangle"></i> Derniers jours pour votre DNAS !</p>
+        </div>
+        <div class="messagerie">
+          <p><i class="far fa-envelope"></i> <a href="#inmail">Messagerie (2)</a></p>
+        </div>
+        <div class="deconnexion">
+          <button>Déconnexion X</button>
+        </div>
       </div>
     </header>
 
-    <!-- ID entreprise -->
+<!-- ID entreprise-->
       <div class="id-entreprise">
-        <p>Entreprise XXXXXXXXX | N° Siret 00000000000</p>
+        <h6>Entreprise XXXXXXXXX | N° Siret 00000000000</h6>
       </div>
-    <!-- Navigation -->
+
+<!-- Navigation -->
     <nav>
       <div class="topnav">
         <a class="active" href="#home"><i class="fas fa-home"></i></a>
@@ -41,14 +45,15 @@
         <a href="#operations">MES OPERATIONS</a>
       </div>
     </nav>
-  <div class="column-container">
-    <!-- 1. Bienvenue-->
-    <section class="colonne-gauche">
+
+<!-- 1. Bienvenue-->
       <section>
-        <h1 class="bienvenue">Bienvenue Entreprise XXXXXXXXXXX</h1>
+        <div class="bienvenue">
+          <h1>Bienvenue Entreprise XXXXXXXXXXX</h1>
+        </div>
       </section>
 
-    <!-- 2. Coordonnées -->
+<!-- 2. Coordonnées -->
       <section>
         <div class="coordonnees">
           <h2>Coordonnées</h2>
@@ -67,7 +72,7 @@
         </div>
       </section>
 
-    <!-- 3. Tableau Dernières opé -->
+<!-- 3. Tableau Dernières opé -->
       <section>
         <div class="tableau">
           <h2>Dernières opérations</h2>
@@ -126,15 +131,15 @@
           </table>
         </div>
       </section>
-    </section>
-    <!-- 4. Dernière co. -->
-    <section class="colonne-droite">
+
+<!-- 4. Dernière co. -->
       <section>
         <div class="derniere-co">
           <p><em>Dernière connexion : le 10/03/2014 à 14:08</em></p>
+        </div>
       </section>
 
-    <!-- 5. Urgent -->
+<!-- 5. Urgent -->
       <section>
         <div class="urgent">
           <p>Urgent</p>
@@ -144,7 +149,7 @@
         </div>
       </section>
 
-    <!-- 6. Messagerie -->
+<!-- 6. Messagerie -->
       <section>
         <div class="mail">
           <h2>Messagerie</h2>
@@ -152,7 +157,7 @@
         </div>
       </section>
 
-    <!-- 7. Contact PRO BTP -->
+<!-- 7. Contact PRO BTP -->
       <section>
         <div class="contact">
           <h2>Contact PRO BTP</h2>
@@ -162,7 +167,7 @@
         </div>
       </section>
 
-    <!-- 8. Important -->
+<!-- 8. Important -->
       <section>
         <div class="important">
           <ul>
@@ -173,8 +178,7 @@
           </ul>
         </div>
       </section>
-    </section>
-  </div>
+
 </body>
 </html>
   </body>

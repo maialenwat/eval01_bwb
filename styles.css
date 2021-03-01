@@ -1,7 +1,6 @@
 /* STYLES GENERAUX */
 *{
-	font-family: "Avenir", sans-serif;
-	padding: 0px;
+	font-family: Helvetica, Arial, sans-serif;
 	margin: 0px;
 	text-align: justify;
 	box-sizing: border-box;
@@ -16,16 +15,35 @@ body{
 /* HEADER */
 header{
 	width: 100%;
-	padding: 20px 0px;
-	height: 120px;
+	height: 40px;
+}
+.mon-compte{
+  position: relative;
+  margin-top: 5px;
+}
+.alert{
+  position: absolute;
+  margin-left: 40%;
+  margin-top: -20px;
+}
+.messagerie{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: -20px;
+}
+button{
+  border: 2px solid black;
 }
 .deconnexion{
-  border: 1px solid black;
-  box-shadow: 5px 5px darkgrey;
-  float: right;
+  box-shadow: 5px 5px black;
+  position: absolute;
+  margin-left:90%;
+  margin-top: -20px;
 }
 .id-entreprise{
   float: right;
+  padding-bottom: 10px;
+  margin-right: 20px;
 }
 
 /*Barre de navigation*/
@@ -65,7 +83,22 @@ section{
 	margin: 10px auto;
 }
 
-/* TABLEAU */
+// Titre Bienvenue
+.bienvenue{
+  float: left;
+}
+
+
+// Coordonnées
+.coordonnees{
+  border: 1px solid black;
+  height: 300px;
+  width: 500px;
+  padding-left: 20px;
+  line-height: 2.8;
+}
+
+// Tableau
 table{
   border: 1px solid black;
 }
@@ -83,32 +116,21 @@ tr:nth-child(odd){
 	background-color: #f2f2f2;
 }
 
-/* URGENT */
+// Urgent
 .urgent{
   border: 3px dashed black;
   border-radius: 10px;
   padding: 10px;
 }
 
-/* MESSAGERIE */
+// Messagerie
 .mail{
   border: 2px solid black;
   padding: 20px;
 }
 
-/* CONTACT PRO BTP */
+// Contact Pro BTP
 .contact{
   border: 2px solid black;
-  padding: 20px;
-}
-
-/* conteneurs */
-.column-container{
-  display: flex;
-  flex-wrap: wrap;
-}
-.colonne-gauche{
-  flex: 50%;
-  background-color: pink;
   padding: 20px;
 }
