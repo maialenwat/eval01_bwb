@@ -11,6 +11,10 @@ a{
 body{
   margin: 10px;
 }
+p{
+  font-size: 1em;
+  line-height: 1.5em;
+}
 
 /* HEADER */
 header{
@@ -51,13 +55,15 @@ button{
 	display: flex;
 	width: 100%;
 	box-shadow: 5px 5px darkgrey;
-	overflow: auto;
+	overflow: hidden;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 .topnav a{
 	float: left;
+  display: block;
+  width: 100%;
 	color: black;
 	padding: 14px 16px;
 	text-align: center;
@@ -77,26 +83,21 @@ button{
 /* SECTIONS */
 section{
 	display: flex;
+  flex-flow: row wrap;
 	justify-content: center;
   width: 100%;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+  padding-top: 20px;
 	margin: 10px auto;
+}
+section > div{
+  width: 90%;
 }
 
 // Titre Bienvenue
-.bienvenue{
-  float: left;
-}
-
 
 // Coordonnées
-.coordonnees{
-  border: 1px solid black;
-  height: 300px;
-  width: 500px;
-  padding-left: 20px;
-  line-height: 2.8;
-}
+
 
 // Tableau
 table{
