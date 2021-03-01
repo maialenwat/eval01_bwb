@@ -46,7 +46,7 @@ nav a{
 }
 nav a:hover{ /*change the link color to lightgrey on hover*/
 	background-color: lightgrey;
-	color: black;
+	color: white;
 }
 nav a.active{
 	background-color: skyblue;
@@ -61,14 +61,16 @@ section{
 	padding-bottom: 20px;
 	margin: 10px auto;
 }
-.flex-container{
+.colonne1, .colonne2{
   display: flex;
   flex-flow: column wrap;
 }
 
 /* TABLEAU */
+table{
+  border: 1px solid black;
+}
 table, th,td{
-	border: 1px solid black;
 	border-collapse: collapse; /*bordures fusionnées*/
 }
 th, td{
