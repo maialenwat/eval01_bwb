@@ -1,5 +1,5 @@
 /* STYLES GENERAUX */
-// css lu de haut en bas, vérifier mes réglages!!
+// css lu de haut en bas, vérifier mes réglages, certainement un overide!!
 *{
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 0px;
@@ -9,9 +9,7 @@
 a{
 	color: black;
 }
-body{
-  margin: 10px;
-}
+
 p{
   font-size: 1em;
   line-height: 1.5em;
@@ -72,11 +70,11 @@ button{
 	font-size: 17px;
   border: 1px solid black;
 }
-.topnav a:hover{ /*change the link color to lightgrey on hover*/
+.topnav a:hover{ //change the link color to lightgrey on hover
 	background-color: lightgrey;
 	color: white;
 }
-.topnav a.active{
+.topnav a.active{  // I add an "active" class to the current link to let the user know on which page he's on
 	background-color: skyblue;
 	color: white;
 }
@@ -84,20 +82,11 @@ button{
 /* SECTIONS */
 section{
 	display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
 	padding-bottom: 10px;
   padding-top: 20px;
 	margin: 10px auto;
-}
-
-.flex-container{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.flex-container > section{
-  width: 50%;
 }
 
 // Tableau
