@@ -7,7 +7,6 @@
 *{
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 0px;
-	text-align: justify;
 	box-sizing: border-box;
 }
 h2{
@@ -160,15 +159,19 @@ tr:nth-child(odd){
 }
 
 /* Bloc Messagerie */
-.mail{
+.inmail{
   border: 2px solid black;
   padding: 10px;
+  text-align: center;
 }
 
 /* Bloc Contact Pro BTP */
 .contact{
   border: 2px solid black;
   padding: 10px;
+}
+.contact h2{
+  text-align: center;
 }
 
 /* Bloc Important */
