@@ -1,15 +1,18 @@
 /* STYLES GENERAUX */
-// css lu de haut en bas, vérifier mes réglages, certainement un overide!!
+/* css lu de haut en bas, vérifier mes réglages, certainement un overide!! */
+/* Problème trouvé: le double slash en commentaire empêche des fonctionnalités */
 *{
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 0px;
 	text-align: justify;
 	box-sizing: border-box;
 }
+h2{
+  padding-bottom: 10px;
+}
 a{
 	color: black;
 }
-
 p{
   font-size: 1em;
   line-height: 1.5em;
@@ -89,9 +92,13 @@ section{
 	margin: 10px auto;
 }
 
-/* Tableau */
+/* Bloc Tableau */
+.bloc-tableau{
+  border: 2px solid black;
+  padding: 10px;
+}
 table{
-  border: 1px solid black;
+  border: 2px solid black;
 }
 table, th,td{
 	border-collapse: collapse; /*bordures fusionnées*/
@@ -107,21 +114,28 @@ tr:nth-child(odd){
 	background-color: #f2f2f2;
 }
 
-/* Urgent */
+/* Bloc Urgent */
 .urgent{
-  border: 3px dashed black;
+  border: 2px dashed black;
   border-radius: 10px;
   padding: 10px;
 }
 
-/* Messagerie */
+/* Bloc Messagerie */
 .mail{
   border: 2px solid black;
   padding: 20px;
+  width: 200px;
+  height: 200px;
 }
 
-/* Contact Pro BTP */
+/* Bloc Contact Pro BTP */
 .contact{
+  border: 2px solid black;
+  padding: 20px;
+}
+/* Bloc Important */
+.important{
   border: 2px solid black;
   padding: 20px;
 }
