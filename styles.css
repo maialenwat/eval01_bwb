@@ -93,6 +93,14 @@ section{
 	margin: 10px auto;
 }
 
+/* Bloc 2 (coordonnées + tableau) */
+.bloc2{
+  display: grid;
+  grid-row-gap: 10px;;
+  grid-template-columns: 40%;
+}
+
+
 /* Bloc Coordonnées */
 .coordonnees{
   border: 2px solid black;
