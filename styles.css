@@ -70,11 +70,11 @@ button{
 	font-size: 17px;
   border: 1px solid black;
 }
-.topnav a:hover{ //change the link color to lightgrey on hover
+.topnav a:hover{ /*change the link color to lightgrey on hover */
 	background-color: lightgrey;
 	color: white;
 }
-.topnav a.active{  // I add an "active" class to the current link to let the user know on which page he's on
+.topnav a.active{  /* I add an "active" class to the current link to let the user know on which page he's on*/
 	background-color: skyblue;
 	color: white;
 }
@@ -89,7 +89,7 @@ section{
 	margin: 10px auto;
 }
 
-// Tableau
+/* Tableau */
 table{
   border: 1px solid black;
 }
@@ -107,20 +107,20 @@ tr:nth-child(odd){
 	background-color: #f2f2f2;
 }
 
-// Urgent
+/* Urgent */
 .urgent{
   border: 3px dashed black;
   border-radius: 10px;
   padding: 10px;
 }
 
-// Messagerie
+/* Messagerie */
 .mail{
   border: 2px solid black;
   padding: 20px;
 }
 
-// Contact Pro BTP
+/* Contact Pro BTP */
 .contact{
   border: 2px solid black;
   padding: 20px;
