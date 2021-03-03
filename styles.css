@@ -121,18 +121,29 @@ tr:nth-child(odd){
 }
 
 /* Bloc Urgent */
-.urgent{
+.grid-urgent{
+  display: grid;
+  width: 620px;
+  height: 90px;
+  grid-template-columns: 10% 90%;
+  grid-gap: 40px;
   border: 2px dashed black;
   border-radius: 10px;
   padding: 10px;
+}
+
+/* Messagerie + Contact Pro Btp*/
+.grid-container{
+  display: grid;
+  width: 600px;
+  grid-template-columns: 30% 70%;
+  grid-gap: 20px;
 }
 
 /* Bloc Messagerie */
 .mail{
   border: 2px solid black;
   padding: 20px;
-  width: 200px;
-  height: 200px;
 }
 
 /* Bloc Contact Pro BTP */
