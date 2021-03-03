@@ -55,7 +55,6 @@ button{
   margin-right: 20px;
 }
 
-
 /*Barre de navigation*/
 .topnav{
 	display: flex;
@@ -110,6 +109,11 @@ button{
   grid-row-gap: 10px;
 }
 
+/* Ligne bienvenue */
+.bienvenue{
+  margin-top: 10px;
+}
+
 /* Bloc Coordonnées */
 .coordonnees{
   border: 2px solid black;
@@ -140,7 +144,12 @@ tr:nth-child(odd){
 	background-color: #f2f2f2;
 }
 
-/* Bloc Urgent */
+/* Ligne dernière connexion */
+.derniere-co p{
+  margin-top: 30px;
+}
+
+/* Bloc Urgent (en pointillé) */
 .bloc-urgent{
   display: grid;
   height: 90px;
