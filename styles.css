@@ -40,15 +40,18 @@ header{
   margin-left: 80%;
   margin-top: -20px;
 }
-button{
-  border: 2px solid black;
-}
+
 .deconnexion{
+  border: 2px solid black;
   box-shadow: 5px 5px black;
   position: absolute;
-  margin-left:90%;
+  margin-left: 90%;
   margin-top: -20px;
 }
+.deconnexion a{
+  text-decoration: none;
+}
+
 .id-entreprise{
   float: right;
   padding-bottom: 10px;
@@ -147,7 +150,7 @@ tr:nth-child(odd){
 /* Bloc Urgent (en pointillé) */
 .bloc-urgent{
   display: grid;
-  height: 90px;
+  
   grid-template-columns: 10% 90%;
   grid-gap: 40px;
   border: 2px dashed black;
