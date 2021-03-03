@@ -94,30 +94,30 @@ button{
   grid-template-columns: 45% 45%;
   grid-column-gap: 20px;
   margin-top: 50px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
 /* Colonne de gauche */
 .bloc-gauche{
   display: grid;
-  grid-row-gap: 10px;;
+  grid-row-gap: 15px;
 }
 
 /* Colonne de droite*/
 .colonne-droite{
   display: grid;
-  grid-row-gap: 10px;
-}
-
-/* Ligne bienvenue */
-.bienvenue{
-  margin-top: 10px;
+  grid-row-gap: 15px;
 }
 
 /* Bloc Coordonnées */
 .coordonnees{
   border: 2px solid black;
   padding: 10px;
+}
+.coordonnees p{
+  line-height: 3em;
+  padding-left: 10px;
 }
 
 /* Bloc Tableau */
@@ -144,11 +144,6 @@ tr:nth-child(odd){
 	background-color: #f2f2f2;
 }
 
-/* Ligne dernière connexion */
-.derniere-co p{
-  margin-top: 30px;
-}
-
 /* Bloc Urgent (en pointillé) */
 .bloc-urgent{
   display: grid;
@@ -160,7 +155,7 @@ tr:nth-child(odd){
   padding: 10px;
 }
 
-/* Bloc côte à côte : Messagerie + Contact Pro Btp */
+/* Blocs côte à côte : Messagerie + Contact Pro Btp */
 .small-container{
   display: grid;
   grid-template-columns: 25% 75%;
