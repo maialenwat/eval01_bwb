@@ -73,6 +73,7 @@ button{
 	font-size: 17px;
   border: 1px solid black;
 }
+
 .topnav a:hover{ /*change the link color to lightgrey on hover */
 	background-color: lightgrey;
 	color: white;
@@ -92,6 +93,11 @@ section{
 	margin: 10px auto;
 }
 
+/* Bloc Coordonnées */
+.coordonnees{
+  border: 2px solid black;
+  padding: 10px;
+}
 /* Bloc Tableau */
 .bloc-tableau{
   border: 2px solid black;
