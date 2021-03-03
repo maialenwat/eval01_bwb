@@ -15,6 +15,7 @@ h2{
 }
 a{
 	color: black;
+  cursor: pointer;
 }
 p{
   font-size: 1em;
@@ -123,9 +124,11 @@ button{
 }
 table{
   border: 2px solid black;
+  
 }
 table, th,td{
 	border-collapse: collapse; /*bordures fusionnées*/
+  border-right: 2px solid black;
 }
 th, td{
 	padding: 5px;
@@ -147,15 +150,13 @@ tr:nth-child(odd){
   border: 2px dashed black;
   border-radius: 10px;
   padding: 10px;
-  background-color: red;
 }
 
-/* Bloc côte à côte : Messagerie + Contact Pro Btp*/
+/* Bloc côte à côte : Messagerie + Contact Pro Btp */
 .small-container{
   display: grid;
   grid-template-columns: 25% 75%;
   grid-gap: 20px;
-  background-color: greenyellow;
 }
 
 /* Bloc Messagerie */
