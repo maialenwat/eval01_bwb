@@ -2,7 +2,6 @@
 /* Problème trouvé: le double slash en commentaire empêche des fonctionnalités */
 
 
-
 /* STYLES GENERAUX */
 *{
 	font-family: Helvetica, Arial, sans-serif;
@@ -185,4 +184,9 @@ tr:nth-child(odd){
 .important{
   border: 2px solid black;
   padding: 20px;
+}
+
+/* Partie responsive (ou du moins on va essayer)*/
+@media only screen and (min-width: 767px){
+  
 }
