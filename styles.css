@@ -146,10 +146,10 @@ tr:nth-child(odd){
 	background-color: #f2f2f2;
 }
 
+
 /* Bloc Urgent (en pointillé) */
 .bloc-urgent{
   display: grid;
-  
   grid-template-columns: 10% 90%;
   grid-gap: 40px;
   border: 2px dashed black;
@@ -186,7 +186,3 @@ tr:nth-child(odd){
   padding: 20px;
 }
 
-/* Partie responsive (ou du moins on va essayer)*/
-@media only screen and (min-width: 767px){
-  
-}
